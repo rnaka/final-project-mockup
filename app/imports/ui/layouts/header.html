@@ -3,10 +3,8 @@
   <div class="ui container">
     <img style="max-height: 60px; max-width: 60px" class="ui small circular image" src="/images/uh-logo.png">
       <a style="color: white" class="item" href="{{pathFor 'Home_Page'}}"><h1>UH FLEA MARKET</h1></a>
-      {{#if currentUser}}
-        <a class="{{ isActiveRoute 'Add_Stuff_Page'}} item" href="{{ pathFor 'Add_Stuff_Page' }}">Add Stuff </a>
-        <a class="{{ isActiveRoute 'List_Stuff_Page'}} item" href="{{ pathFor 'List_Stuff_Page' }}">List Stuff</a>
-      {{/if}}
+    <a style="color: white" class="item" href="{{pathFor 'Sell_Page'}}">Sell Item</a>
+    <a style="color: white" class="item" href="{{pathFor 'List_Item_Page'}}">Items List</a>
     <a style="color: white" class="right aligned item" href="{{pathFor 'Login_Page'}}">Login</a>
     <a style="color: white" class="item" href="{{pathFor 'Sign_Up_Page'}}">Sign Up</a>
     </div>

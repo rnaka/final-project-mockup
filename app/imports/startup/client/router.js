@@ -36,6 +36,20 @@ FlowRouter.route('/admin', {
   },
 });
 
+FlowRouter.route('/sell', {
+  name: 'Sell_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Sell_Page' });
+  },
+});
+
+FlowRouter.route('/list_item', {
+  name: 'List_Item_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'List_Item_Page' });
+  },
+});
+
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',
   action() {

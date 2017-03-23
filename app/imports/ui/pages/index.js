@@ -18,3 +18,9 @@ import './login-page.js';
 import './user-home-page.html';
 
 import './admin-page.html';
+
+import './sell-page.html';
+import './sell-page.js';
+
+import './list-item.html';
+import './list-item.js';
