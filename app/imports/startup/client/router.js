@@ -8,6 +8,34 @@ FlowRouter.route('/', {
   },
 });
 
+FlowRouter.route('/signup', {
+  name: 'Sign_Up_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Sign_Up_Page' });
+  },
+});
+
+FlowRouter.route('/login', {
+  name: 'Login_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Login_Page' });
+  },
+});
+
+FlowRouter.route('/user_home_page', {
+  name: 'User_Home_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'User_Home_Page' });
+  },
+});
+
+FlowRouter.route('/admin', {
+  name: 'Admin_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Admin_Page' });
+  },
+});
+
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',
   action() {
